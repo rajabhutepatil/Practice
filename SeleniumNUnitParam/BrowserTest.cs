@@ -37,6 +37,14 @@ namespace SeleniumNUnitParam
 
         }
 
+        [Test]
+        public void AddNumber()
+        {
+            int i = 10;
+            int j = 5;
+            Assert.AreEqual(i + j, 15);
+        }
+
 
     }
 }
